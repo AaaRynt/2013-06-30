@@ -9,7 +9,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GRADUATION-001",
+		basis: "R-GRADUATION-001"
 	},
 	{
 		id: "graduation-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-001",
+		basis: "F-GRADUATION-001"
 	},
 	{
 		id: "graduation-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-002",
+		basis: "F-GRADUATION-002"
 	},
 	{
 		id: "graduation-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-003",
+		basis: "F-GRADUATION-003"
 	},
 	{
 		id: "graduation-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GRADUATION-002",
+		basis: "R-GRADUATION-002"
 	},
 	{
 		id: "graduation-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 2,
-		basis: "F-GRADUATION-004",
+		basis: "F-GRADUATION-004"
 	},
 	{
 		id: "graduation-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "F-GRADUATION-005",
+		basis: "F-GRADUATION-005"
 	},
 	{
 		id: "graduation-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-006",
+		basis: "F-GRADUATION-006"
 	},
 	{
 		id: "graduation-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 3,
-		basis: "R-GRADUATION-003",
+		basis: "R-GRADUATION-003"
 	},
 	{
 		id: "graduation-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-007",
+		basis: "F-GRADUATION-007"
 	},
 	{
 		id: "graduation-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "F-GRADUATION-008",
+		basis: "F-GRADUATION-008"
 	},
 	{
 		id: "graduation-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-GRADUATION-004",
+		basis: "R-GRADUATION-004"
 	},
 	{
 		id: "graduation-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-009",
+		basis: "F-GRADUATION-009"
 	},
 	{
 		id: "graduation-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 2,
-		basis: "F-GRADUATION-010",
+		basis: "F-GRADUATION-010"
 	},
 	{
 		id: "graduation-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 3,
-		basis: "R-GRADUATION-005",
+		basis: "R-GRADUATION-005"
 	},
 	{
 		id: "graduation-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-011",
+		basis: "F-GRADUATION-011"
 	},
 	{
 		id: "graduation-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-012",
+		basis: "F-GRADUATION-012"
 	},
 	{
 		id: "graduation-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-013",
+		basis: "F-GRADUATION-013"
 	},
 	{
 		id: "graduation-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-014",
+		basis: "F-GRADUATION-014"
 	},
 	{
 		id: "graduation-020",
@@ -199,7 +199,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GRADUATION-006",
+		basis: "R-GRADUATION-006"
 	},
 	{
 		id: "graduation-021",
@@ -209,7 +209,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 2,
-		basis: "F-GRADUATION-015",
+		basis: "F-GRADUATION-015"
 	},
 	{
 		id: "graduation-022",
@@ -219,7 +219,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-016",
+		basis: "F-GRADUATION-016"
 	},
 	{
 		id: "graduation-023",
@@ -229,7 +229,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-017",
+		basis: "F-GRADUATION-017"
 	},
 	{
 		id: "graduation-024",
@@ -239,7 +239,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GRADUATION-007",
+		basis: "R-GRADUATION-007"
 	},
 	{
 		id: "graduation-025",
@@ -249,7 +249,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "F-GRADUATION-018",
+		basis: "F-GRADUATION-018"
 	},
 	{
 		id: "graduation-026",
@@ -259,7 +259,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GRADUATION-008",
+		basis: "R-GRADUATION-008"
 	},
 	{
 		id: "graduation-027",
@@ -269,7 +269,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GRADUATION-009",
+		basis: "R-GRADUATION-009"
 	},
 	{
 		id: "graduation-028",
@@ -279,7 +279,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-019",
+		basis: "F-GRADUATION-019"
 	},
 	{
 		id: "graduation-029",
@@ -289,7 +289,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-020",
+		basis: "F-GRADUATION-020"
 	},
 	{
 		id: "graduation-030",
@@ -299,7 +299,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "sensational",
 		hot: 3,
-		basis: "F-GRADUATION-021",
+		basis: "F-GRADUATION-021"
 	},
 	{
 		id: "graduation-031",
@@ -309,7 +309,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "question",
 		hot: 2,
-		basis: "F-GRADUATION-022",
+		basis: "F-GRADUATION-022"
 	},
 	{
 		id: "graduation-032",
@@ -319,7 +319,7 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GRADUATION-010",
+		basis: "R-GRADUATION-010"
 	},
 	{
 		id: "graduation-033",
@@ -329,6 +329,6 @@ window.PORTAL_DATA.graduation = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "F-GRADUATION-023",
-	},
+		basis: "F-GRADUATION-023"
+	}
 ];

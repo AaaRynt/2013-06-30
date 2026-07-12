@@ -9,7 +9,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-CHINA-003",
+		basis: "R-CHINA-003"
 	},
 	{
 		id: "china-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-CHINA-002",
+		basis: "R-CHINA-002"
 	},
 	{
 		id: "china-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 2,
-		basis: "R-CHINA-029",
+		basis: "R-CHINA-029"
 	},
 	{
 		id: "china-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-CHINA-004",
+		basis: "R-CHINA-004"
 	},
 	{
 		id: "china-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-CHINA-030",
+		basis: "R-CHINA-030"
 	},
 	{
 		id: "china-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-CHINA-009",
+		basis: "R-CHINA-009"
 	},
 	{
 		id: "china-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 2,
-		basis: "R-CHINA-012",
+		basis: "R-CHINA-012"
 	},
 	{
 		id: "china-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 1,
-		basis: "R-CHINA-013",
+		basis: "R-CHINA-013"
 	},
 	{
 		id: "china-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-CHINA-015",
+		basis: "R-CHINA-015"
 	},
 	{
 		id: "china-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-CHINA-014",
+		basis: "R-CHINA-014"
 	},
 	{
 		id: "china-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-CHINA-016",
+		basis: "R-CHINA-016"
 	},
 	{
 		id: "china-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "sensational",
 		hot: 2,
-		basis: "R-CHINA-019",
+		basis: "R-CHINA-019"
 	},
 	{
 		id: "china-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-CHINA-020",
+		basis: "R-CHINA-020"
 	},
 	{
 		id: "china-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-CHINA-021",
+		basis: "R-CHINA-021"
 	},
 	{
 		id: "china-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-CHINA-022",
+		basis: "R-CHINA-022"
 	},
 	{
 		id: "china-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-CHINA-010",
+		basis: "R-CHINA-010"
 	},
 	{
 		id: "china-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-CHINA-031",
+		basis: "R-CHINA-031"
 	},
 	{
 		id: "china-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-CHINA-024",
+		basis: "R-CHINA-024"
 	},
 	{
 		id: "china-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-CHINA-027",
+		basis: "R-CHINA-027"
 	},
 	{
 		id: "china-020",
@@ -199,7 +199,7 @@ window.PORTAL_DATA.china = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-CHINA-027",
+		basis: "R-CHINA-027"
 	},
 	{
 		id: "china-021",
@@ -209,6 +209,6 @@ window.PORTAL_DATA.china = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-CHINA-028",
-	},
+		basis: "R-CHINA-028"
+	}
 ];

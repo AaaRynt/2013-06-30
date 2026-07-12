@@ -1,0 +1,33 @@
+/* Internet Explorer 8 compatibility fixes */
+
+body {
+	min-width: 1000px;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.main-nav,
+.module-title,
+.school-title,
+.forum-title,
+.question-title {
+	zoom: 1;
+}
+
+.site-search input {
+	line-height: 19px;
+}
+
+.party-news li {
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+.rank-list em,
+.service-grid a,
+.code-image {
+	display: inline;
+	zoom: 1;
+}

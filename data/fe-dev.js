@@ -9,7 +9,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-001",
+		basis: "R-FE-DEV-001"
 	},
 	{
 		id: "fe-dev-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-FE-DEV-002",
+		basis: "R-FE-DEV-002"
 	},
 	{
 		id: "fe-dev-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 3,
-		basis: "R-FE-DEV-003",
+		basis: "R-FE-DEV-003"
 	},
 	{
 		id: "fe-dev-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-004",
+		basis: "R-FE-DEV-004"
 	},
 	{
 		id: "fe-dev-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 3,
-		basis: "R-FE-DEV-005",
+		basis: "R-FE-DEV-005"
 	},
 	{
 		id: "fe-dev-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 2,
-		basis: "R-FE-DEV-006",
+		basis: "R-FE-DEV-006"
 	},
 	{
 		id: "fe-dev-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-007",
+		basis: "R-FE-DEV-007"
 	},
 	{
 		id: "fe-dev-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-008",
+		basis: "R-FE-DEV-008"
 	},
 	{
 		id: "fe-dev-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-009",
+		basis: "R-FE-DEV-009"
 	},
 	{
 		id: "fe-dev-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-010",
+		basis: "R-FE-DEV-010"
 	},
 	{
 		id: "fe-dev-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-011",
+		basis: "R-FE-DEV-011"
 	},
 	{
 		id: "fe-dev-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 3,
-		basis: "R-FE-DEV-012",
+		basis: "R-FE-DEV-012"
 	},
 	{
 		id: "fe-dev-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-FE-DEV-013",
+		basis: "R-FE-DEV-013"
 	},
 	{
 		id: "fe-dev-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-014",
+		basis: "R-FE-DEV-014"
 	},
 	{
 		id: "fe-dev-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 1,
-		basis: "R-FE-DEV-015",
+		basis: "R-FE-DEV-015"
 	},
 	{
 		id: "fe-dev-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-016",
+		basis: "R-FE-DEV-016"
 	},
 	{
 		id: "fe-dev-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-017",
+		basis: "R-FE-DEV-017"
 	},
 	{
 		id: "fe-dev-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-018",
+		basis: "R-FE-DEV-018"
 	},
 	{
 		id: "fe-dev-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-019",
+		basis: "R-FE-DEV-019"
 	},
 	{
 		id: "fe-dev-020",
@@ -199,7 +199,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-FE-DEV-020",
+		basis: "R-FE-DEV-020"
 	},
 	{
 		id: "fe-dev-021",
@@ -209,7 +209,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 2,
-		basis: "R-FE-DEV-021",
+		basis: "R-FE-DEV-021"
 	},
 	{
 		id: "fe-dev-022",
@@ -219,7 +219,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "real",
 		tone: "portal",
 		hot: 3,
-		basis: "R-FE-DEV-022",
+		basis: "R-FE-DEV-022"
 	},
 	{
 		id: "fe-dev-023",
@@ -229,7 +229,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 1,
-		basis: "R-FE-DEV-023",
+		basis: "R-FE-DEV-023"
 	},
 	{
 		id: "fe-dev-024",
@@ -239,7 +239,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 2,
-		basis: "R-FE-DEV-024",
+		basis: "R-FE-DEV-024"
 	},
 	{
 		id: "fe-dev-025",
@@ -249,7 +249,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-FE-DEV-025",
+		basis: "R-FE-DEV-025"
 	},
 	{
 		id: "fe-dev-026",
@@ -259,7 +259,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-026",
+		basis: "R-FE-DEV-026"
 	},
 	{
 		id: "fe-dev-027",
@@ -269,7 +269,7 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "question",
 		hot: 3,
-		basis: "R-FE-DEV-027",
+		basis: "R-FE-DEV-027"
 	},
 	{
 		id: "fe-dev-028",
@@ -279,6 +279,6 @@ window.PORTAL_DATA.fe_dev = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-FE-DEV-028",
-	},
+		basis: "R-FE-DEV-028"
+	}
 ];

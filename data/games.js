@@ -9,7 +9,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAMES-001",
+		basis: "R-GAMES-001"
 	},
 	{
 		id: "games-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAMES-002",
+		basis: "R-GAMES-002"
 	},
 	{
 		id: "games-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAMES-003",
+		basis: "R-GAMES-003"
 	},
 	{
 		id: "games-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-004",
+		basis: "R-GAMES-004"
 	},
 	{
 		id: "games-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-005",
+		basis: "R-GAMES-005"
 	},
 	{
 		id: "games-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAMES-006",
+		basis: "R-GAMES-006"
 	},
 	{
 		id: "games-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-007",
+		basis: "R-GAMES-007"
 	},
 	{
 		id: "games-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-008",
+		basis: "R-GAMES-008"
 	},
 	{
 		id: "games-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-009",
+		basis: "R-GAMES-009"
 	},
 	{
 		id: "games-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-010",
+		basis: "R-GAMES-010"
 	},
 	{
 		id: "games-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAMES-011",
+		basis: "R-GAMES-011"
 	},
 	{
 		id: "games-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-012",
+		basis: "R-GAMES-012"
 	},
 	{
 		id: "games-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-013",
+		basis: "R-GAMES-013"
 	},
 	{
 		id: "games-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-014",
+		basis: "R-GAMES-014"
 	},
 	{
 		id: "games-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAMES-015",
+		basis: "R-GAMES-015"
 	},
 	{
 		id: "games-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 1,
-		basis: "R-GAMES-016",
+		basis: "R-GAMES-016"
 	},
 	{
 		id: "games-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-017",
+		basis: "R-GAMES-017"
 	},
 	{
 		id: "games-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "sensational",
 		hot: 3,
-		basis: "R-GAMES-018",
+		basis: "R-GAMES-018"
 	},
 	{
 		id: "games-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-019",
+		basis: "R-GAMES-019"
 	},
 	{
 		id: "games-020",
@@ -199,6 +199,6 @@ window.PORTAL_DATA.games = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAMES-020",
-	},
+		basis: "R-GAMES-020"
+	}
 ];

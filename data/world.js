@@ -9,7 +9,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-001",
+		basis: "R-WORLD-001"
 	},
 	{
 		id: "world-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-002",
+		basis: "R-WORLD-002"
 	},
 	{
 		id: "world-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-003",
+		basis: "R-WORLD-003"
 	},
 	{
 		id: "world-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-004",
+		basis: "R-WORLD-004"
 	},
 	{
 		id: "world-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-005",
+		basis: "R-WORLD-005"
 	},
 	{
 		id: "world-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-006",
+		basis: "R-WORLD-006"
 	},
 	{
 		id: "world-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-007",
+		basis: "R-WORLD-007"
 	},
 	{
 		id: "world-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-008",
+		basis: "R-WORLD-008"
 	},
 	{
 		id: "world-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-009",
+		basis: "R-WORLD-009"
 	},
 	{
 		id: "world-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-010",
+		basis: "R-WORLD-010"
 	},
 	{
 		id: "world-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 2,
-		basis: "R-WORLD-011",
+		basis: "R-WORLD-011"
 	},
 	{
 		id: "world-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-012",
+		basis: "R-WORLD-012"
 	},
 	{
 		id: "world-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-013",
+		basis: "R-WORLD-013"
 	},
 	{
 		id: "world-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-014",
+		basis: "R-WORLD-014"
 	},
 	{
 		id: "world-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-015",
+		basis: "R-WORLD-015"
 	},
 	{
 		id: "world-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-016",
+		basis: "R-WORLD-016"
 	},
 	{
 		id: "world-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-WORLD-017",
+		basis: "R-WORLD-017"
 	},
 	{
 		id: "world-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-018",
+		basis: "R-WORLD-018"
 	},
 	{
 		id: "world-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-019",
+		basis: "R-WORLD-019"
 	},
 	{
 		id: "world-020",
@@ -199,7 +199,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-020",
+		basis: "R-WORLD-020"
 	},
 	{
 		id: "world-021",
@@ -209,7 +209,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-021",
+		basis: "R-WORLD-021"
 	},
 	{
 		id: "world-022",
@@ -219,7 +219,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-WORLD-022",
+		basis: "R-WORLD-022"
 	},
 	{
 		id: "world-023",
@@ -229,7 +229,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-WORLD-023",
+		basis: "R-WORLD-023"
 	},
 	{
 		id: "world-024",
@@ -239,7 +239,7 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-024",
+		basis: "R-WORLD-024"
 	},
 	{
 		id: "world-025",
@@ -249,6 +249,6 @@ window.PORTAL_DATA.world = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-WORLD-025",
-	},
+		basis: "R-WORLD-025"
+	}
 ];

@@ -9,7 +9,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-001",
+		basis: "R-GAOKAO-001"
 	},
 	{
 		id: "gaokao-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-002",
+		basis: "R-GAOKAO-002"
 	},
 	{
 		id: "gaokao-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAOKAO-003",
+		basis: "R-GAOKAO-003"
 	},
 	{
 		id: "gaokao-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "question",
 		hot: 2,
-		basis: "R-GAOKAO-004",
+		basis: "R-GAOKAO-004"
 	},
 	{
 		id: "gaokao-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "question",
 		hot: 2,
-		basis: "R-GAOKAO-005",
+		basis: "R-GAOKAO-005"
 	},
 	{
 		id: "gaokao-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAOKAO-006",
+		basis: "R-GAOKAO-006"
 	},
 	{
 		id: "gaokao-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-007",
+		basis: "R-GAOKAO-007"
 	},
 	{
 		id: "gaokao-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-008",
+		basis: "R-GAOKAO-008"
 	},
 	{
 		id: "gaokao-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "sensational",
 		hot: 3,
-		basis: "R-GAOKAO-009",
+		basis: "R-GAOKAO-009"
 	},
 	{
 		id: "gaokao-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAOKAO-010",
+		basis: "R-GAOKAO-010"
 	},
 	{
 		id: "gaokao-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-011",
+		basis: "R-GAOKAO-011"
 	},
 	{
 		id: "gaokao-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "question",
 		hot: 3,
-		basis: "R-GAOKAO-012",
+		basis: "R-GAOKAO-012"
 	},
 	{
 		id: "gaokao-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-013",
+		basis: "R-GAOKAO-013"
 	},
 	{
 		id: "gaokao-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "real",
 		tone: "sensational",
 		hot: 3,
-		basis: "R-GAOKAO-014",
+		basis: "R-GAOKAO-014"
 	},
 	{
 		id: "gaokao-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-015",
+		basis: "R-GAOKAO-015"
 	},
 	{
 		id: "gaokao-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-016",
+		basis: "R-GAOKAO-016"
 	},
 	{
 		id: "gaokao-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-017",
+		basis: "R-GAOKAO-017"
 	},
 	{
 		id: "gaokao-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAOKAO-018",
+		basis: "R-GAOKAO-018"
 	},
 	{
 		id: "gaokao-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 2,
-		basis: "R-GAOKAO-019",
+		basis: "R-GAOKAO-019"
 	},
 	{
 		id: "gaokao-020",
@@ -199,7 +199,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-020",
+		basis: "R-GAOKAO-020"
 	},
 	{
 		id: "gaokao-021",
@@ -209,7 +209,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "question",
 		hot: 3,
-		basis: "R-GAOKAO-021",
+		basis: "R-GAOKAO-021"
 	},
 	{
 		id: "gaokao-022",
@@ -219,7 +219,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-022",
+		basis: "R-GAOKAO-022"
 	},
 	{
 		id: "gaokao-023",
@@ -229,7 +229,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-GAOKAO-023",
+		basis: "R-GAOKAO-023"
 	},
 	{
 		id: "gaokao-024",
@@ -239,7 +239,7 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "fictional",
 		tone: "portal",
 		hot: 2,
-		basis: "R-GAOKAO-024",
+		basis: "R-GAOKAO-024"
 	},
 	{
 		id: "gaokao-025",
@@ -249,6 +249,6 @@ window.PORTAL_DATA.gaokao = [
 		authenticity: "real",
 		tone: "straight",
 		hot: 3,
-		basis: "R-GAOKAO-025",
-	},
+		basis: "R-GAOKAO-025"
+	}
 ];

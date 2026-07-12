@@ -9,7 +9,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-001",
+		basis: "R-TECH-001"
 	},
 	{
 		id: "tech-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-017",
+		basis: "R-TECH-017"
 	},
 	{
 		id: "tech-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-003",
+		basis: "R-TECH-003"
 	},
 	{
 		id: "tech-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-004",
+		basis: "R-TECH-004"
 	},
 	{
 		id: "tech-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-005",
+		basis: "R-TECH-005"
 	},
 	{
 		id: "tech-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-006",
+		basis: "R-TECH-006"
 	},
 	{
 		id: "tech-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-007",
+		basis: "R-TECH-007"
 	},
 	{
 		id: "tech-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-008",
+		basis: "R-TECH-008"
 	},
 	{
 		id: "tech-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-009",
+		basis: "R-TECH-009"
 	},
 	{
 		id: "tech-010",
@@ -99,7 +99,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-010",
+		basis: "R-TECH-010"
 	},
 	{
 		id: "tech-011",
@@ -109,7 +109,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-011",
+		basis: "R-TECH-011"
 	},
 	{
 		id: "tech-012",
@@ -119,7 +119,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-012",
+		basis: "R-TECH-012"
 	},
 	{
 		id: "tech-013",
@@ -129,7 +129,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-013",
+		basis: "R-TECH-013"
 	},
 	{
 		id: "tech-014",
@@ -139,7 +139,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-014",
+		basis: "R-TECH-014"
 	},
 	{
 		id: "tech-015",
@@ -149,7 +149,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-015",
+		basis: "R-TECH-015"
 	},
 	{
 		id: "tech-016",
@@ -159,7 +159,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-016",
+		basis: "R-TECH-016"
 	},
 	{
 		id: "tech-017",
@@ -169,7 +169,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-002",
+		basis: "R-TECH-002"
 	},
 	{
 		id: "tech-018",
@@ -179,7 +179,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-018",
+		basis: "R-TECH-018"
 	},
 	{
 		id: "tech-019",
@@ -189,7 +189,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-019",
+		basis: "R-TECH-019"
 	},
 	{
 		id: "tech-020",
@@ -199,7 +199,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 3,
-		basis: "R-TECH-020",
+		basis: "R-TECH-020"
 	},
 	{
 		id: "tech-021",
@@ -209,7 +209,7 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-021",
+		basis: "R-TECH-021"
 	},
 	{
 		id: "tech-022",
@@ -219,6 +219,6 @@ window.PORTAL_DATA.tech = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 2,
-		basis: "R-TECH-022",
-	},
+		basis: "R-TECH-022"
+	}
 ];

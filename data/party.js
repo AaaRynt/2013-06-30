@@ -9,7 +9,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 1,
-		basis: "R-PARTY-001",
+		basis: "R-PARTY-001"
 	},
 	{
 		id: "party-002",
@@ -19,7 +19,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-002",
+		basis: "R-PARTY-002"
 	},
 	{
 		id: "party-003",
@@ -29,7 +29,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-003",
+		basis: "R-PARTY-003"
 	},
 	{
 		id: "party-004",
@@ -39,7 +39,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-004",
+		basis: "R-PARTY-004"
 	},
 	{
 		id: "party-005",
@@ -49,7 +49,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 1,
-		basis: "R-PARTY-005",
+		basis: "R-PARTY-005"
 	},
 	{
 		id: "party-006",
@@ -59,7 +59,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-006",
+		basis: "R-PARTY-006"
 	},
 	{
 		id: "party-007",
@@ -69,7 +69,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-007",
+		basis: "R-PARTY-007"
 	},
 	{
 		id: "party-008",
@@ -79,7 +79,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-008",
+		basis: "R-PARTY-008"
 	},
 	{
 		id: "party-009",
@@ -89,7 +89,7 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "portal",
 		hot: 1,
-		basis: "R-PARTY-009",
+		basis: "R-PARTY-009"
 	},
 	{
 		id: "party-010",
@@ -99,6 +99,6 @@ window.PORTAL_DATA.party = [
 		authenticity: "adapted",
 		tone: "straight",
 		hot: 0,
-		basis: "R-PARTY-010",
-	},
+		basis: "R-PARTY-010"
+	}
 ];
