@@ -15,10 +15,7 @@
 		<div id="top"></div>
 		<div id="page">
 			<div class="top-bar clearfix">
-				<div class="top-links">
-					<a href="#">设为首页</a><span>|</span> <a href="#">加入收藏</a><span>|</span> <a href="#">手机访问</a><span>|</span> <a href="#">RSS订阅</a><span>|</span>
-					<a href="#">官方微博</a>
-				</div>
+				<div class="top-links"><a href="#" id="set-homepage" style="behavior: url(#default#homepage)">设为首页</a><span>|</span> <a href="#" id="add-favorite">加入收藏</a><span>|</span> <a href="#">手机访问</a><span>|</span> <a href="#">RSS订阅</a><span>|</span><a href="https://weibo.com/" target="_blank">官方微博</a></div>
 				<div class="top-status">
 					<span id="portal-clock">2013年06月30日 星期日 00:00:00</span>
 					<span class="online-count">当前在线：<strong id="online-count">23876</strong>人</span>
@@ -65,17 +62,15 @@
 				</ul>
 			</div>
 			<div class="sub-nav"><strong>地方频道：</strong><a href="#">北京</a> <a href="#">上海</a> <a href="#">江苏</a> <a href="#">浙江</a> <a href="#">广东</a> <a href="#">四川</a> <a href="#">湖北</a> <span>|</span><strong>特色栏目：</strong><a href="#">今日话题</a> <a href="#">深度调查</a> <a href="#">新闻图片</a> <a href="#">视频播报</a></div>
-
 			<div class="party-special clearfix">
-				<div class="party-badge"><span>七一</span><em>专题</em></div>
-				<div class="party-heading">
-					<h2>庆祝中国共产党成立92周年</h2>
-					<p>回顾光辉历程　弘扬优良传统　服务人民群众</p>
+				<div class="party-banner"></div>
+				<div class="party-summary clearfix">
+					<strong class="party-slogan">回顾光辉历程　弘扬优良传统　服务人民群众</strong>
+					<div class="party-news">
+						<ul id="party-news-list"></ul>
+					</div>
+					<a class="party-more js-more-link" data-channel="party" href="#">进入专题&gt;&gt;</a>
 				</div>
-				<div class="party-news">
-					<ul id="party-news-list"></ul>
-				</div>
-				<a class="party-more js-more-link" data-channel="party" href="#">进入专题&gt;&gt;</a>
 			</div>
 
 			<div class="search-flash clearfix">
@@ -92,7 +87,7 @@
 						<input type="submit" class="search-button" value="搜 索" />
 						<a href="#">高级搜索</a>
 					</form>
-					<div class="hot-words"><span>热门：</span><a href="#">高考志愿</a> <a href="#">Google Reader</a> <a href="#">毕业季</a> <a href="#">DOTA2</a></div>
+					<div class="hot-words"><span>热门：</span><a href="#">毕业季</a> <a href="#">棱镜门</a> <a href="#">iOS 7</a> <a href="#">土木专业</a></div>
 				</div>
 				<div class="flash-news">
 					<strong>[滚动快讯]</strong>
@@ -102,72 +97,98 @@
 			</div>
 
 			<div class="main-columns clearfix">
-				<div class="column-left">
-					<div class="portal-module blue-module">
-						<div class="module-title">
-							<h3>中国新闻</h3>
-							<a href="#" class="js-more-link" data-channel="china">更多&gt;&gt;</a>
+				<div class="content-main">
+					<div class="content-top clearfix">
+						<div class="column-left">
+							<div class="portal-module rank-module">
+								<div class="module-title gray-title">
+									<h3>新闻点击排行</h3>
+									<span>24小时</span>
+								</div>
+								<div class="module-body">
+									<ol class="rank-list" id="news-rank-list"></ol>
+								</div>
+							</div>
+
+							<div class="portal-module service-module">
+								<div class="module-title orange-title">
+									<h3>便民服务</h3>
+									<a href="#">更多</a>
+								</div>
+								<div class="module-body service-grid"><a href="#">天气预报</a><a href="#">列车时刻</a><a href="#">公交查询</a> <a href="#">快递查询</a><a href="#">手机归属</a><a href="#">彩票开奖</a> <a href="#">电视节目</a><a href="#">在线翻译</a><a href="#">万年历</a></div>
+							</div>
+
+							<div class="portal-module survey-module">
+								<div class="module-title gray-title">
+									<h3>今日调查</h3>
+									<a href="#">往期</a>
+								</div>
+								<div class="module-body">
+									<p><strong>您最关注哪一类暑期资讯？</strong></p>
+									<label><input type="radio" name="survey" /> 高考录取</label>
+									<label><input type="radio" name="survey" /> 求职就业</label>
+									<label><input type="radio" name="survey" /> 数码新品</label>
+									<label><input type="radio" name="survey" /> 游戏娱乐</label>
+									<div><input class="small-button" type="button" value="投 票" /> <a href="#">查看结果</a></div>
+								</div>
+							</div>
+
+							<div class="side-posters">
+								<img src="assets/健康上网.png" width="235" height="100" alt="健康上网公益海报" />
+								<img src="assets/支持正版.png" width="235" height="100" alt="支持正版公益海报" />
+								<img src="assets/普法.jpeg" width="235" height="100" alt="普法公益海报" />
+								<img src="assets/抵制诱惑.png" width="235" height="100" alt="抵制不良诱惑公益海报" />
+							</div>
 						</div>
-						<div class="module-body">
-							<h4 class="side-headline" id="china-headline"></h4>
-							<ul class="news-list dated-list" id="china-news-list"></ul>
+
+						<div class="column-center">
+							<div class="focus-news">
+								<h1 id="focus-primary"></h1>
+								<p id="focus-primary-related"></p>
+								<h2 id="focus-secondary"></h2>
+								<p id="focus-secondary-related"></p>
+							</div>
+
+							<div class="portal-module center-module">
+								<div class="module-title tab-title">
+									<h3>国际要闻</h3>
+									<span><a href="#" class="js-more-link" data-channel="world">更多&gt;&gt;</a></span>
+								</div>
+								<div class="module-body">
+									<ul class="news-list center-list" id="world-news-list"></ul>
+								</div>
+							</div>
+
+							<div class="portal-module blue-module">
+								<div class="module-title">
+									<h3>中国新闻</h3>
+									<a href="#" class="js-more-link" data-channel="china">更多&gt;&gt;</a>
+								</div>
+								<div class="module-body">
+									<h4 class="side-headline" id="china-headline"></h4>
+									<ul class="news-list dated-list" id="china-news-list"></ul>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					<div class="portal-module rank-module">
-						<div class="module-title gray-title">
-							<h3>新闻点击排行</h3>
-							<span>24小时</span>
-						</div>
-						<div class="module-body">
-							<ol class="rank-list" id="news-rank-list"></ol>
-						</div>
-					</div>
-
-					<div class="portal-module service-module">
-						<div class="module-title orange-title">
-							<h3>便民服务</h3>
-							<a href="#">更多</a>
-						</div>
-						<div class="module-body service-grid"><a href="#">天气预报</a><a href="#">列车时刻</a><a href="#">公交查询</a> <a href="#">快递查询</a><a href="#">手机归属</a><a href="#">彩票开奖</a> <a href="#">电视节目</a><a href="#">在线翻译</a><a href="#">万年历</a></div>
-					</div>
-				</div>
-
-				<div class="column-center">
-					<div class="focus-news">
-						<h1 id="focus-primary"></h1>
-						<p id="focus-primary-related"></p>
-						<h2 id="focus-secondary"></h2>
-						<p id="focus-secondary-related"></p>
-					</div>
-
-					<div class="portal-module center-module">
-						<div class="module-title tab-title">
-							<h3>国际要闻</h3>
-							<span><a href="#" class="js-more-link" data-channel="world">更多&gt;&gt;</a></span>
-						</div>
-						<div class="module-body">
-							<ul class="news-list center-list" id="world-news-list"></ul>
-						</div>
-					</div>
-
-					<div class="portal-module picture-module">
-						<div class="module-title redline-title">
-							<h3>图片新闻</h3>
-							<a href="#">更多图片&gt;&gt;</a>
+					<div class="portal-module education-module">
+						<div class="module-title school-title">
+							<h3>教育 · 校园 · 毕业季</h3>
+							<a href="#">更多&gt;&gt;</a>
 						</div>
 						<div class="module-body clearfix">
-							<div class="picture-placeholder">
-								<div>[图片]</div>
-								<a href="#" class="js-article-link" id="picture-news-one"></a>
+							<div class="lower-section">
+								<h4>高考志愿<a href="#" class="channel-more js-more-link" data-channel="gaokao">更多&gt;&gt;</a></h4>
+								<ul class="news-list plain-list" id="gaokao-news-list"></ul>
 							</div>
-							<div class="picture-placeholder">
-								<div>[图集]</div>
-								<a href="#" class="js-article-link" id="picture-news-two"></a>
+							<div class="lower-section">
+								<h4>毕业季<a href="#" class="channel-more js-more-link" data-channel="graduation">更多&gt;&gt;</a></h4>
+								<ul class="news-list plain-list" id="graduation-news-list"></ul>
 							</div>
-							<div class="picture-placeholder last">
-								<div>[专题]</div>
-								<a href="#" class="js-article-link" id="picture-news-three"></a>
+							<div class="lower-section last">
+								<h4>开发者<a href="#" class="channel-more js-more-link" data-channel="fe_dev">更多&gt;&gt;</a></h4>
+								<ul class="news-list plain-list" id="fe-dev-news-list"></ul>
 							</div>
 						</div>
 					</div>
@@ -192,7 +213,7 @@
 									</tr>
 									<tr>
 										<th><label for="login-code">验证码：</label></th>
-										<td><input class="code-input" type="text" id="login-code" name="code" /><span class="code-image">8K3P</span></td>
+										<td><input class="code-input" type="text" id="login-code" name="code" /><a href="#" class="code-image" id="captcha-code" title="点击换一张" unselectable="on" onselectstart="return false;" oncopy="return false;"></a></td>
 									</tr>
 									<tr>
 										<th>&nbsp;</th>
@@ -229,47 +250,6 @@
 						<div class="module-body">
 							<div class="game-ad-box"><strong>暑期新游大作专题</strong><span>热门网游 · 单机游戏 · 掌机</span></div>
 							<ul class="news-list plain-list" id="games-news-list"></ul>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="lower-grid clearfix">
-				<div class="lower-wide">
-					<div class="portal-module">
-						<div class="module-title school-title">
-							<h3>高考 · 校园 · 毕业季</h3>
-							<a href="#">更多&gt;&gt;</a>
-						</div>
-						<div class="module-body clearfix">
-							<div class="lower-section">
-								<h4>高考志愿<a href="#" class="channel-more js-more-link" data-channel="gaokao">更多&gt;&gt;</a></h4>
-								<ul class="news-list plain-list" id="gaokao-news-list"></ul>
-							</div>
-							<div class="lower-section">
-								<h4>毕业季<a href="#" class="channel-more js-more-link" data-channel="graduation">更多&gt;&gt;</a></h4>
-								<ul class="news-list plain-list" id="graduation-news-list"></ul>
-							</div>
-							<div class="lower-section last">
-								<h4>开发者<a href="#" class="channel-more js-more-link" data-channel="fe_dev">更多&gt;&gt;</a></h4>
-								<ul class="news-list plain-list" id="fe-dev-news-list"></ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="lower-side">
-					<div class="portal-module survey-module">
-						<div class="module-title gray-title">
-							<h3>今日调查</h3>
-							<a href="#">往期</a>
-						</div>
-						<div class="module-body">
-							<p><strong>您最关注哪一类暑期资讯？</strong></p>
-							<label><input type="radio" name="survey" /> 高考录取</label>
-							<label><input type="radio" name="survey" /> 求职就业</label>
-							<label><input type="radio" name="survey" /> 数码新品</label>
-							<label><input type="radio" name="survey" /> 游戏娱乐</label>
-							<div><input class="small-button" type="button" value="投 票" /> <a href="#">查看结果</a></div>
 						</div>
 					</div>
 				</div>

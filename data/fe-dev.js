@@ -250,35 +250,5 @@ window.PORTAL_DATA.fe_dev = [
 		tone: "portal",
 		hot: 3,
 		basis: "R-FE-DEV-025"
-	},
-	{
-		id: "fe-dev-026",
-		date: "02/20",
-		title: "老站维护手册：用X-UA-Compatible管住IE文档模式",
-		headlineType: "guide",
-		authenticity: "adapted",
-		tone: "portal",
-		hot: 2,
-		basis: "R-FE-DEV-026"
-	},
-	{
-		id: "fe-dev-027",
-		date: "02/06",
-		title: "IE6真的可以退休了吗？客户机器与统计数据说法不一",
-		headlineType: "controversy",
-		authenticity: "adapted",
-		tone: "question",
-		hot: 3,
-		basis: "R-FE-DEV-027"
-	},
-	{
-		id: "fe-dev-028",
-		date: "01/24",
-		title: "float布局与table布局各有何坑，老网站改版别急着全推倒",
-		headlineType: "guide",
-		authenticity: "adapted",
-		tone: "portal",
-		hot: 2,
-		basis: "R-FE-DEV-028"
 	}
 ];

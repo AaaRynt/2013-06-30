@@ -340,71 +340,61 @@ button {
 
 .party-special {
 	position: relative;
-	height: 74px;
 	margin-top: 8px;
-	overflow: hidden;
 	border: 2px solid #a40000;
 	background: #fff8df;
 }
 
-.party-badge {
-	float: left;
-	width: 73px;
-	height: 74px;
-	background: #b40000;
-	color: #f5d064;
-	text-align: center;
+.party-banner {
+	width: 996px;
+	height: 104px;
+	background: #a40000 url("../assets/ccp.jpg") no-repeat center top;
+	background-size: 996px 104px;
 }
 
-.party-badge span {
-	display: block;
-	height: 44px;
-	font-family: "微软雅黑", "宋体", sans-serif;
-	font-size: 27px;
-	font-weight: bold;
-	line-height: 48px;
-}
-
-.party-badge em {
-	font-style: normal;
-	letter-spacing: 3px;
-}
-
-.party-heading {
-	float: left;
-	width: 330px;
-	padding: 9px 12px 0 15px;
-	text-align: center;
-}
-
-.party-heading h2 {
-	color: #a40000;
-	font-family: "微软雅黑", "宋体", sans-serif;
-	font-size: 20px;
+.party-summary {
+	height: 32px;
+	overflow: hidden;
+	padding: 0 8px;
+	border-top: 1px solid #a40000;
+	background: #fff8df;
 	line-height: 32px;
 }
 
-.party-heading p {
-	color: #8c6200;
+.party-slogan {
+	float: left;
+	width: 330px;
+	height: 32px;
+	overflow: hidden;
+	color: #8c5200;
+	font-weight: bold;
 }
 
 .party-news {
 	float: left;
-	width: 470px;
-	padding-top: 7px;
+	width: 540px;
 }
 
 .party-news ul {
-	width: 470px;
+	width: 540px;
+	zoom: 1;
+}
+
+.party-news ul:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
 }
 
 .party-news li {
 	float: left;
-	width: 225px;
-	height: 28px;
+	width: 270px;
+	height: 32px;
 	overflow: hidden;
-	padding-left: 10px;
-	line-height: 28px;
+	padding-left: 0;
+	line-height: 32px;
 }
 
 .party-news li:before {
@@ -419,16 +409,19 @@ button {
 }
 
 .party-more {
-	position: absolute;
-	right: 8px;
-	bottom: 3px;
+	float: right;
+	width: 90px;
+	height: 32px;
+	overflow: hidden;
 	color: #a40000;
+	font-weight: bold;
+	line-height: 32px;
+	text-align: right;
 }
 
-.party-special-expanded {
+.party-special-expanded .party-summary {
 	height: auto;
-	min-height: 74px;
-	padding-bottom: 20px;
+	min-height: 32px;
 }
 
 .search-flash {
@@ -526,6 +519,15 @@ button {
 	margin-top: 10px;
 }
 
+.content-main {
+	float: left;
+	width: 725px;
+}
+
+.content-top {
+	width: 725px;
+}
+
 .column-left,
 .column-center,
 .column-right {
@@ -593,16 +595,8 @@ button {
 .news-list li {
 	height: 25px;
 	overflow: hidden;
-	padding-left: 10px;
+	padding-left: 0;
 	line-height: 25px;
-}
-
-.news-list li:before {
-	float: left;
-	margin-left: -9px;
-	content: "·";
-	color: #245b91;
-	font-weight: bold;
 }
 
 .dated-list li a {
@@ -616,6 +610,10 @@ button {
 	float: right;
 	color: #999999;
 	font-size: 11px;
+}
+
+.column-center .dated-list li a {
+	width: 400px;
 }
 
 .gray-title {
@@ -660,24 +658,74 @@ button {
 	background: #d21717;
 }
 
-.hot-mark,
-.recommend-mark {
-	margin-right: 3px;
-	font-weight: normal;
-}
-
-.hot-mark {
-	color: #d21717;
-}
-
-.recommend-mark {
-	color: #d97800;
-}
-
 .news-type {
 	float: left;
 	margin-right: 3px;
-	color: #777777;
+	font-weight: bold;
+}
+
+.news-type-hard-news {
+	color: #d00000;
+}
+
+.news-type-analysis {
+	color: #111111;
+}
+
+.news-type-explainer {
+	color: #7a008a;
+}
+
+.news-type-impact {
+	color: #007000;
+}
+
+.news-type-reaction {
+	color: #c43d00;
+}
+
+.news-type-human {
+	color: #c0006f;
+}
+
+.news-type-scene {
+	color: #006b64;
+}
+
+.news-type-service {
+	color: #806000;
+}
+
+.news-type-comparison {
+	color: #5a2d82;
+}
+
+.news-type-rumor {
+	color: #800020;
+}
+
+.news-type-review {
+	color: #555555;
+}
+
+.news-type-guide {
+	color: #008040;
+}
+
+.news-type-controversy {
+	color: #ff0000;
+}
+
+.news-type-question {
+	color: #00523f;
+}
+
+.news-type-advert {
+	color: #a52a00;
+}
+
+.news-type-default {
+	color: #333333;
 }
 
 .empty-data {
@@ -786,44 +834,6 @@ button {
 	font-weight: bold;
 }
 
-.redline-title {
-	border-top: 2px solid #c40000;
-	background: #f4f4f4;
-	filter: none;
-}
-
-.redline-title h3 {
-	color: #a40000;
-}
-
-.picture-placeholder {
-	float: left;
-	width: 142px;
-	margin-right: 10px;
-	text-align: center;
-}
-
-.picture-placeholder.last {
-	margin-right: 0;
-}
-
-.picture-placeholder div {
-	height: 72px;
-	border: 1px solid #aaaaaa;
-	background: #d9e1e8;
-	color: #667788;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 72px;
-}
-
-.picture-placeholder a {
-	display: block;
-	height: 25px;
-	overflow: hidden;
-	line-height: 25px;
-}
-
 .login-title {
 	border-bottom-color: #93a7bb;
 	background: #d8e6f2;
@@ -862,18 +872,50 @@ button {
 
 .code-image {
 	display: inline-block;
-	width: 52px;
+	position: relative;
+	width: 58px;
 	height: 19px;
 	margin-left: 5px;
+	overflow: hidden;
 	border: 1px solid #bbbbbb;
 	background: #f7e8b7;
-	color: #6d3c15;
-	font:
-		bold 13px/19px "Courier New",
-		monospace;
-	letter-spacing: 3px;
+	cursor: pointer;
+	font-size: 0;
+	letter-spacing: 0;
 	text-align: center;
+	text-decoration: none;
 	vertical-align: middle;
+	zoom: 1;
+}
+
+.code-image:hover {
+	text-decoration: none;
+}
+
+.captcha-char {
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	width: 13px;
+	height: 19px;
+	font-weight: bold;
+	line-height: 19px;
+	text-align: center;
+	zoom: 1;
+}
+
+.captcha-char-blur {
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1, MakeShadow=false);
+}
+
+.captcha-line {
+	display: block;
+	position: absolute;
+	z-index: 3;
+	height: 1px;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 1px;
 }
 
 .login-table .remember {
@@ -952,20 +994,6 @@ button {
 	color: #775f31;
 }
 
-.lower-grid {
-	margin-top: 2px;
-}
-
-.lower-wide {
-	float: left;
-	width: 725px;
-}
-
-.lower-side {
-	float: right;
-	width: 265px;
-}
-
 .school-title {
 	border-bottom-color: #d4a552;
 	background: #fff1c9;
@@ -1024,6 +1052,26 @@ button {
 .survey-module .small-button {
 	width: 55px;
 	margin: 5px 8px 0 45px;
+}
+
+.column-left .survey-module label {
+	width: 92px;
+}
+
+.column-left .survey-module .small-button {
+	margin-left: 25px;
+}
+
+.side-posters {
+	width: 235px;
+	overflow: hidden;
+}
+
+.side-posters img {
+	display: block;
+	width: 235px;
+	margin-bottom: 6px;
+	border: 0;
 }
 
 .community-row {

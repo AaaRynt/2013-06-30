@@ -20,9 +20,10 @@ body {
 	line-height: 19px;
 }
 
-.party-news li {
-	list-style-position: inside;
-	list-style-type: square;
+.party-banner {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/ccp.jpg', sizingMethod='scale');
+	zoom: 1;
 }
 
 .rank-list em,

@@ -33,22 +33,30 @@
 		return typeNames[type] || "资讯";
 	}
 
-	function getHotMark(item) {
-		var hot = parseInt(item && item.hot, 10);
+	function getTypeClass(type) {
+		var typeClasses = {
+			"hard-news": "news-type-hard-news",
+			analysis: "news-type-analysis",
+			explainer: "news-type-explainer",
+			impact: "news-type-impact",
+			reaction: "news-type-reaction",
+			human: "news-type-human",
+			scene: "news-type-scene",
+			service: "news-type-service",
+			comparison: "news-type-comparison",
+			rumor: "news-type-rumor",
+			review: "news-type-review",
+			guide: "news-type-guide",
+			controversy: "news-type-controversy",
+			question: "news-type-question",
+			advert: "news-type-advert"
+		};
 
-		if (hot >= 3) {
-			return '<b class="hot-mark">[热]</b>';
-		}
-
-		if (hot === 2) {
-			return '<b class="recommend-mark">[荐]</b>';
-		}
-
-		return "";
+		return typeClasses[type] || "news-type-default";
 	}
 
 	function getArticleLink(item) {
-		return '<a href="#" class="js-article-link">' + getHotMark(item) + escapeHtml(item && item.title) + "</a>";
+		return '<a href="#" class="js-article-link">' + escapeHtml(item && item.title) + "</a>";
 	}
 
 	function renderNewsList(selector, data, limit, options) {
@@ -74,7 +82,7 @@
 			} else if (layout === "party") {
 				html.push("<li>" + getArticleLink(item) + "</li>");
 			} else {
-				html.push('<li><span class="news-type">[' + escapeHtml(typeLabel) + "]</span>" + getArticleLink(item) + "</li>");
+				html.push('<li><span class="news-type ' + getTypeClass(item.headlineType) + '">[' + escapeHtml(typeLabel) + "]</span>" + getArticleLink(item) + "</li>");
 			}
 		}
 
@@ -114,14 +122,6 @@
 		}
 
 		$(relatedSelector).html(related.join("　"));
-	}
-
-	function renderPictureTitle(selector, item) {
-		if (item && item.title) {
-			$(selector).html(getHotMark(item) + escapeHtml(item.title));
-		} else {
-			$(selector).text("图片内容暂未更新");
-		}
 	}
 
 	function renderRank(selector, items) {
@@ -187,7 +187,6 @@
 		renderNewsList: renderNewsList,
 		renderHeadline: renderHeadline,
 		renderFocus: renderFocus,
-		renderPictureTitle: renderPictureTitle,
 		renderRank: renderRank,
 		renderForumList: renderForumList,
 		renderQuestionList: renderQuestionList

@@ -9,7 +9,7 @@
 			selector: "#china-news-list",
 			headlineSelector: "#china-headline",
 			layout: "dated",
-			initialCount: 8,
+			initialCount: 15,
 			dataName: "china"
 		},
 		world: {
@@ -23,13 +23,13 @@
 			selector: "#tech-news-list",
 			headlineSelector: "#tech-headline",
 			layout: "plain",
-			initialCount: 6,
+			initialCount: 14,
 			dataName: "tech"
 		},
 		games: {
 			selector: "#games-news-list",
 			layout: "plain",
-			initialCount: 5,
+			initialCount: 14,
 			dataName: "games"
 		},
 		gaokao: {
@@ -53,7 +53,7 @@
 		party: {
 			selector: "#party-news-list",
 			layout: "party",
-			initialCount: 4,
+			initialCount: 3,
 			dataName: "party"
 		}
 	};
@@ -131,9 +131,6 @@
 
 		renderer.renderFocus("#focus-primary", "#focus-primary-related", getData("gaokao"));
 		renderer.renderFocus("#focus-secondary", "#focus-secondary-related", getData("world"));
-		renderer.renderPictureTitle("#picture-news-one", getData("graduation")[2]);
-		renderer.renderPictureTitle("#picture-news-two", getData("games")[6]);
-		renderer.renderPictureTitle("#picture-news-three", getData("gaokao")[3]);
 	}
 
 	function combineNews() {
@@ -287,8 +284,101 @@
 		});
 	}
 
+	function refreshCaptcha() {
+		var characters = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
+		var textColors = ["#8b0000", "#004d00", "#4b0082", "#7a3d00", "#111111", "#8a0055"];
+		var backgroundColors = ["#f7e8b7", "#d9eed0", "#dce7f2", "#f1d9d0", "#e8ddf0", "#eeeecc"];
+		var fontFamilies = ["Courier New, monospace", "Arial, sans-serif", "Times New Roman, serif", "Georgia, serif"];
+		var html = [];
+		var character;
+		var className;
+		var color;
+		var fontFamily;
+		var fontSize;
+		var topOffset;
+		var lineColor;
+		var lineTop;
+		var lineLeft;
+		var lineWidth;
+		var i;
+
+		for (i = 0; i < 4; i++) {
+			character = characters.charAt(Math.floor(Math.random() * characters.length));
+			className = "captcha-char" + (i === 1 || Math.random() < 0.25 ? " captcha-char-blur" : "");
+			color = textColors[Math.floor(Math.random() * textColors.length)];
+			fontFamily = fontFamilies[Math.floor(Math.random() * fontFamilies.length)];
+			fontSize = 13 + Math.floor(Math.random() * 4);
+			topOffset = Math.floor(Math.random() * 5) - 2;
+			html.push('<span class="' + className + '" unselectable="on" style="color:' + color + ";font-family:" + fontFamily + ";font-size:" + fontSize + "px;top:" + topOffset + 'px;">' + character + "</span>");
+		}
+
+		for (i = 0; i < 3; i++) {
+			lineColor = textColors[Math.floor(Math.random() * textColors.length)];
+			lineTop = 3 + Math.floor(Math.random() * 14);
+			lineLeft = Math.floor(Math.random() * 9) - 5;
+			lineWidth = 48 + Math.floor(Math.random() * 16);
+			html.push('<span class="captcha-line" unselectable="on" style="background:' + lineColor + ";top:" + lineTop + "px;left:" + lineLeft + "px;width:" + lineWidth + 'px;"></span>');
+		}
+
+		$("#captcha-code")
+			.css("background", backgroundColors[Math.floor(Math.random() * backgroundColors.length)])
+			.html(html.join(""));
+	}
+
+	function bindCaptcha() {
+		$("#captcha-code")
+			.on("click", function () {
+				refreshCaptcha();
+				return false;
+			})
+			.on("selectstart copy cut contextmenu", function () {
+				return false;
+			});
+	}
+
+	function setHomepage(link) {
+		try {
+			link.style.behavior = "url(#default#homepage)";
+
+			if (typeof link.setHomePage === "undefined") {
+				window.alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+				return;
+			}
+
+			link.setHomePage(window.location.href);
+		} catch (error) {
+			window.alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+		}
+	}
+
+	function addFavorite() {
+		try {
+			if (!window.external) {
+				window.alert("您好,您的浏览器不支持收藏功能,请您手动收藏本页!");
+				return;
+			}
+
+			window.external.AddFavorite(window.location.href, document.title);
+		} catch (error) {
+			window.alert("您好,您的浏览器不支持收藏功能,请您手动收藏本页!");
+		}
+	}
+
+	function bindLegacyBrowserActions() {
+		$("#set-homepage").on("click", function () {
+			setHomepage(this);
+			return false;
+		});
+
+		$("#add-favorite").on("click", function () {
+			addFavorite();
+			return false;
+		});
+	}
+
 	$(function () {
 		updateClock();
+		refreshCaptcha();
 		renderAllChannels();
 		renderFocusNews();
 		renderRanking();
@@ -301,7 +391,10 @@
 		bindMemberActions();
 		bindRandomRefresh();
 		bindAdvertisement();
+		bindCaptcha();
+		bindLegacyBrowserActions();
 		window.setInterval(updateClock, 1000);
 		window.setInterval(updateOnlineCount, 5000);
+		window.setInterval(refreshCaptcha, 60000);
 	});
 })(window, jQuery);
