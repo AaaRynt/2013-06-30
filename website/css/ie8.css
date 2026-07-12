@@ -31,3 +31,14 @@ body {
 	display: inline;
 	zoom: 1;
 }
+
+.portal-modal,
+.portal-modal-title,
+.portal-modal-body,
+.portal-modal-actions {
+	zoom: 1;
+}
+
+.portal-mask {
+	filter: alpha(opacity=45);
+}

@@ -227,6 +227,20 @@ button {
 	overflow: hidden;
 }
 
+.ad-title {
+	position: absolute;
+	left: 3px;
+	bottom: 3px;
+	max-width: 190px;
+	height: 17px;
+	overflow: hidden;
+	padding: 0 4px;
+	background: #111111;
+	color: #fff3a5;
+	font-weight: bold;
+	line-height: 17px;
+}
+
 .ad-switch {
 	position: absolute;
 	right: 3px;
@@ -409,6 +423,12 @@ button {
 	right: 8px;
 	bottom: 3px;
 	color: #a40000;
+}
+
+.party-special-expanded {
+	height: auto;
+	min-height: 74px;
+	padding-bottom: 20px;
 }
 
 .search-flash {
@@ -634,6 +654,35 @@ button {
 .rank-list li:nth-child(2) em,
 .rank-list li:nth-child(3) em {
 	background: #d21717;
+}
+
+.rank-list li.rank-top em {
+	background: #d21717;
+}
+
+.hot-mark,
+.recommend-mark {
+	margin-right: 3px;
+	font-weight: normal;
+}
+
+.hot-mark {
+	color: #d21717;
+}
+
+.recommend-mark {
+	color: #d97800;
+}
+
+.news-type {
+	float: left;
+	margin-right: 3px;
+	color: #777777;
+}
+
+.empty-data {
+	color: #999999;
+	font-weight: normal;
 }
 
 .orange-title {
@@ -949,6 +998,12 @@ button {
 	text-align: center;
 }
 
+.lower-section h4 .channel-more {
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+}
+
 .survey-module .module-body {
 	height: 118px;
 	padding-left: 15px;
@@ -1036,9 +1091,54 @@ button {
 	color: #999999;
 }
 
+.community-list li.forum-entry {
+	height: 47px;
+	padding-left: 9px;
+	line-height: 21px;
+}
+
+.community-list li.forum-entry > a {
+	float: none;
+	display: block;
+	width: auto;
+	height: 22px;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.community-list li.forum-entry p {
+	height: 20px;
+	overflow: hidden;
+	color: #888888;
+	font-size: 11px;
+	line-height: 20px;
+}
+
 .question-list li {
 	height: 25px;
 	line-height: 25px;
+}
+
+.question-list li.question-entry {
+	height: 37px;
+	line-height: 19px;
+}
+
+.question-entry > a {
+	display: block;
+	height: 19px;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.question-entry p {
+	height: 17px;
+	overflow: hidden;
+	color: #888888;
+	font-size: 11px;
+	line-height: 17px;
 }
 
 .friend-links {
@@ -1084,4 +1184,94 @@ button {
 
 .back-top a {
 	color: #245b91;
+}
+
+.portal-mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9000;
+	background: #000000;
+	filter: alpha(opacity=45);
+	opacity: 0.45;
+}
+
+.portal-modal {
+	display: none;
+	position: absolute;
+	z-index: 9001;
+	width: 390px;
+	border: 1px solid #244d76;
+	background: #ffffff;
+	box-shadow: 3px 3px 8px #555555;
+}
+
+.portal-modal-title {
+	height: 32px;
+	border: 1px solid #75a1c8;
+	border-bottom-color: #173e63;
+	background-color: #367bb9;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f98d1', endColorstr='#245b91', GradientType=0);
+	color: #ffffff;
+	line-height: 32px;
+}
+
+.portal-modal-title strong {
+	float: left;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.portal-modal-title a {
+	float: right;
+	width: 34px;
+	height: 32px;
+	border-left: 1px solid #1c527f;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+}
+
+.portal-modal-body {
+	min-height: 70px;
+	padding: 18px 25px 10px;
+	border-right: 3px solid #e8edf1;
+	border-left: 3px solid #e8edf1;
+	color: #333333;
+	font-size: 14px;
+	text-align: center;
+}
+
+.portal-modal-body p {
+	height: 29px;
+	line-height: 29px;
+}
+
+.portal-modal-actions {
+	height: 48px;
+	border: 3px solid #e8edf1;
+	border-top: 1px solid #c5d1dc;
+	background: #f4f6f8;
+	line-height: 45px;
+	text-align: center;
+}
+
+.modal-button {
+	width: 70px;
+	height: 25px;
+	margin: 0 3px;
+	border: 1px solid #888888;
+	background: #eeeeee;
+	color: #333333;
+	font-weight: bold;
+}
+
+.modal-button.primary-button {
+	border-color: #1e5687;
+	background: #367bb9;
+	color: #ffffff;
 }
