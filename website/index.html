@@ -6,6 +6,8 @@
 		<title>华夏资讯网 - 2013中文综合门户</title>
 		<meta name="keywords" content="新闻,中国,国际,科技,游戏,高考,社区,问答" />
 		<meta name="description" content="华夏资讯网，提供中国、国际、科技、游戏、教育和社区资讯。" />
+		<link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+		<link rel="alternate" type="application/rss+xml" title="华夏资讯网综合RSS" href="rss.xml" />
 		<link rel="stylesheet" type="text/css" href="css/site.css" />
 		<!--[if IE 8]>
 			<link rel="stylesheet" type="text/css" href="css/ie8.css" />
@@ -15,7 +17,7 @@
 		<div id="top"></div>
 		<div id="page">
 			<div class="top-bar clearfix">
-				<div class="top-links"><a href="#" id="set-homepage" style="behavior: url(#default#homepage)">设为首页</a><span>|</span> <a href="#" id="add-favorite">加入收藏</a><span>|</span> <a href="#">手机访问</a><span>|</span> <a href="#">RSS订阅</a><span>|</span><a href="https://weibo.com/" target="_blank">官方微博</a></div>
+				<div class="top-links"><a href="#" id="set-homepage" style="behavior: url(#default#homepage)">设为首页</a><span>|</span> <a href="#" id="add-favorite">加入收藏</a><span>|</span> <a href="#">手机访问</a><span>|</span> <a href="rss.xml" target="_blank">RSS订阅</a><span>|</span><a href="https://weibo.com/" target="_blank">官方微博</a></div>
 				<div class="top-status">
 					<span id="portal-clock">2013年06月30日 星期日 00:00:00</span>
 					<span class="online-count">当前在线：<strong id="online-count">23876</strong>人</span>
@@ -83,15 +85,14 @@
 							<option value="tech">科技</option>
 							<option value="games">游戏</option>
 						</select>
-						<input type="text" name="keyword" id="search-keyword" value="请输入关键词" />
+						<input type="text" name="keyword" id="search-keyword" value="" placeholder="" />
 						<input type="submit" class="search-button" value="搜 索" />
 						<a href="#">高级搜索</a>
 					</form>
-					<div class="hot-words"><span>热门：</span><a href="#">毕业季</a> <a href="#">棱镜门</a> <a href="#">iOS 7</a> <a href="#">土木专业</a></div>
 				</div>
 				<div class="flash-news">
 					<strong>[滚动快讯]</strong>
-					<marquee id="flash-news-text" direction="left" scrollamount="2" scrolldelay="80" onmouseover="this.stop()" onmouseout="this.start()"></marquee>
+					<marquee id="flash-news-text" direction="left" scrollamount="2.5" scrolldelay="35" truespeed="true" onmouseover="this.stop()" onmouseout="this.start()"></marquee>
 					<a href="#">更多&gt;&gt;</a>
 				</div>
 			</div>

@@ -107,15 +107,15 @@
 	}
 
 	function showChannel(channelName) {
-		openModal(channelName + "频道", ["频道页面正在建设中", "登录后可以访问完整频道"], true);
+		openModal(channelName + "频道", ["请先登录用户", "登录后可以访问完整频道"], true);
 	}
 
 	function showRegister() {
-		openModal("注册提示", ["注册系统维护中，暂未开放"], false);
+		openModal("注册提示", ["抱歉，注册系统维护中，暂不开放。"], false);
 	}
 
 	function showLoginMaintenance() {
-		openModal("登录提示", ["用户系统维护中，暂时无法登录。"], false);
+		openModal("登录提示", ["抱歉，用户系统维护中，暂时无法登录。"], false);
 	}
 
 	function showPasswordMaintenance() {

@@ -169,15 +169,18 @@
 	}
 
 	function renderFlashNews() {
-		var sources = [getData("china"), getData("world"), getData("tech")];
+		var sources = [getData("china"), getData("world"), getData("tech"), getData("games"), getData("gaokao"), getData("graduation")];
 		var titles = [];
 		var item;
 		var i;
+		var j;
 
 		for (i = 0; i < sources.length; i++) {
-			item = sources[i][0];
-			if (item && item.title) {
-				titles.push(item.title);
+			for (j = 0; j < sources[i].length && j < 1; j++) {
+				item = sources[i][j];
+				if (item && item.title) {
+					titles.push(item.title);
+				}
 			}
 		}
 
@@ -376,6 +379,60 @@
 		});
 	}
 
+	function bindSearchPlaceholder() {
+		var keywords = ["毕业季", "棱镜门", "iOS 7", "土木专业", "高考志愿", "Google Reader", "斯诺登", "DOTA 2国服", "Windows 8.1", "GTA V", "战地4", "最难就业季", "华为P6", "PS4", "暑期新游", "劳动合同法", "天河二号", "埃及局势"];
+		var $input = $("#search-keyword");
+		var supportsPlaceholder = "placeholder" in document.createElement("input");
+		var currentPlaceholder = "";
+
+		function changePlaceholder() {
+			currentPlaceholder = "试试搜索：" + keywords[Math.floor(Math.random() * keywords.length)];
+			$input.attr("placeholder", currentPlaceholder);
+
+			if (!supportsPlaceholder) {
+				$input.val(currentPlaceholder).addClass("search-placeholder");
+			}
+		}
+
+		$input.on("focus", function () {
+			if (!supportsPlaceholder && $input.val() === currentPlaceholder) {
+				$input.val("").removeClass("search-placeholder");
+			}
+		});
+
+		$input.on("blur", function () {
+			if ($input.val() === "") {
+				changePlaceholder();
+			}
+		});
+
+		changePlaceholder();
+	}
+
+	function showArticleFromRss() {
+		var query = window.location.search || "";
+		var parts = query.replace(/^\?/, "").split("&");
+		var pair;
+		var articleId = "";
+		var i;
+
+		for (i = 0; i < parts.length; i++) {
+			pair = parts[i].split("=");
+			if (pair[0] === "article" && pair[1]) {
+				try {
+					articleId = decodeURIComponent(pair[1].replace(/\+/g, " "));
+				} catch (error) {
+					articleId = pair[1];
+				}
+				break;
+			}
+		}
+
+		if (articleId && modal) {
+			modal.showArticle();
+		}
+	}
+
 	$(function () {
 		updateClock();
 		refreshCaptcha();
@@ -393,6 +450,8 @@
 		bindAdvertisement();
 		bindCaptcha();
 		bindLegacyBrowserActions();
+		bindSearchPlaceholder();
+		showArticleFromRss();
 		window.setInterval(updateClock, 1000);
 		window.setInterval(updateOnlineCount, 5000);
 		window.setInterval(refreshCaptcha, 60000);

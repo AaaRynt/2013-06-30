@@ -425,7 +425,7 @@ button {
 }
 
 .search-flash {
-	height: 65px;
+	height: 46px;
 	margin-top: 8px;
 	border: 1px solid #b7c5d3;
 	background: #f5f8fb;
@@ -434,13 +434,13 @@ button {
 .site-search {
 	float: left;
 	width: 587px;
-	height: 64px;
+	height: 45px;
 	border-right: 1px solid #c6d1dc;
 }
 
 .site-search form {
 	height: 33px;
-	padding: 7px 0 0 10px;
+	padding: 11px 0 0 10px;
 }
 
 .site-search label {
@@ -476,25 +476,15 @@ button {
 	vertical-align: middle;
 }
 
-.hot-words {
-	height: 22px;
-	padding-left: 74px;
-	line-height: 22px;
-}
-
-.hot-words span {
-	color: #d21717;
-}
-
-.hot-words a {
-	margin-right: 7px;
+.site-search input.search-placeholder {
+	color: #888888;
 }
 
 .flash-news {
 	float: right;
 	width: 398px;
-	height: 64px;
-	line-height: 31px;
+	height: 45px;
+	line-height: 45px;
 }
 
 .flash-news strong {
@@ -507,7 +497,8 @@ button {
 .flash-news marquee {
 	float: left;
 	width: 244px;
-	height: 31px;
+	height: 45px;
+	line-height: 45px;
 }
 
 .flash-news > a {

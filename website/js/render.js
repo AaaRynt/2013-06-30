@@ -56,7 +56,9 @@
 	}
 
 	function getArticleLink(item) {
-		return '<a href="#" class="js-article-link">' + escapeHtml(item && item.title) + "</a>";
+		var title = escapeHtml(item && item.title);
+
+		return '<a href="#" class="js-article-link" title="' + title + '">' + title + "</a>";
 	}
 
 	function renderNewsList(selector, data, limit, options) {
@@ -156,7 +158,7 @@
 			item = data[i] || {};
 			comments = parseInt(item.comments, 10) || 0;
 			columnIndex = i < 4 ? 0 : 1;
-			columns[columnIndex].push('<li class="forum-entry"><a href="#" class="js-forum-post">' + escapeHtml(item.title) + "</a><p>网友：" + escapeHtml(item.user || "匿名网友") + "　浏览：" + getForumViews(item) + " 回复：" + comments + "</p></li>");
+			columns[columnIndex].push('<li class="forum-entry"><a href="#" class="js-forum-post" title="' + escapeHtml(item.title) + '">' + escapeHtml(item.title) + "</a><p>网友：" + escapeHtml(item.user || "匿名网友") + "　浏览：" + getForumViews(item) + " 回复：" + comments + "</p></li>");
 		}
 
 		html = '<ul class="news-list community-list">' + columns[0].join("") + '</ul><ul class="news-list community-list second">' + columns[1].join("") + "</ul>";
@@ -177,7 +179,7 @@
 			answers = parseInt(item.comments, 10) || 0;
 			views = 920 + answers * 17 + (item.title ? item.title.length * 31 : 0);
 			follows = Math.max(3, Math.floor(answers / 4));
-			html.push('<li class="question-entry"><a href="#" class="js-question-post">' + escapeHtml(item.title) + "</a><p>回答：" + answers + "　浏览：" + views + "　关注：" + follows + "</p></li>");
+			html.push('<li class="question-entry"><a href="#" class="js-question-post" title="' + escapeHtml(item.title) + '">' + escapeHtml(item.title) + "</a><p>回答：" + answers + "　浏览：" + views + "　关注：" + follows + "</p></li>");
 		}
 
 		$(selector).html('<ul class="news-list question-list">' + html.join("") + "</ul>");

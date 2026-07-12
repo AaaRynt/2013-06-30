@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>华夏资讯网综合RSS</title>
+		<link>index.html</link>
+		<description>华夏资讯网中国、国际、科技、游戏、教育及开发者综合资讯</description>
+		<language>zh-cn</language>
+		<copyright>Copyright 2005-2013 HXNEWS.COM</copyright>
+		<lastBuildDate>Sun, 30 Jun 2013 23:59:00 +0800</lastBuildDate>
+		<generator>HXNEWS Static CMS 2013</generator>
+		<ttl>60</ttl>
+
+		<item>
+			<title><![CDATA[上半年餐桌安全盘点：死猪、毒生姜和镉大米敲响哪些警钟]]></title>
+			<link>index.html?article=china-001</link>
+			<guid isPermaLink="false">hxnews-china-001</guid>
+			<category>中国</category>
+			<description><![CDATA[华夏资讯网中国频道新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 09:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[修改后的劳动合同法明日施行：临时性岗位存续不得超过6个月]]></title>
+			<link>index.html?article=china-002</link>
+			<guid isPermaLink="false">hxnews-china-002</guid>
+			<category>中国</category>
+			<description><![CDATA[华夏资讯网中国频道服务资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 09:10:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[朴槿惠在清华大学发表演讲并用汉语致意]]></title>
+			<link>index.html?article=china-003</link>
+			<guid isPermaLink="false">hxnews-china-003</guid>
+			<category>中国</category>
+			<description><![CDATA[华夏资讯网中国频道新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Sat, 29 Jun 2013 16:20:00 +0800</pubDate>
+		</item>
+
+		<item>
+			<title><![CDATA[巴西、土耳其、埃及接连爆发抗议：街头怒火为何集中在这个夏天？]]></title>
+			<link>index.html?article=world-001</link>
+			<guid isPermaLink="false">hxnews-world-001</guid>
+			<category>国际</category>
+			<description><![CDATA[华夏资讯网国际频道新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 11:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[开罗解放广场再次被人潮填满，穆尔西执政周年成了街头摊牌]]></title>
+			<link>index.html?article=world-002</link>
+			<guid isPermaLink="false">hxnews-world-002</guid>
+			<category>国际</category>
+			<description><![CDATA[华夏资讯网国际频道现场资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 11:10:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[病房外的鲜花没有停：南非仍在等待曼德拉的消息]]></title>
+			<link>index.html?article=world-003</link>
+			<guid isPermaLink="false">hxnews-world-003</guid>
+			<category>国际</category>
+			<description><![CDATA[华夏资讯网国际频道人物资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 10:50:00 +0800</pubDate>
+		</item>
+
+		<item>
+			<title><![CDATA[Google Reader明日关闭：RSS老用户最后一天该往哪搬]]></title>
+			<link>index.html?article=tech-001</link>
+			<guid isPermaLink="false">hxnews-tech-001</guid>
+			<category>科技</category>
+			<description><![CDATA[华夏资讯网科技频道服务资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 13:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[PC销量遭遇多年罕见下滑：平板兴起之外，Windows 8为何没能救市？]]></title>
+			<link>index.html?article=tech-002</link>
+			<guid isPermaLink="false">hxnews-tech-002</guid>
+			<category>科技</category>
+			<description><![CDATA[华夏资讯网科技频道分析摘要，登录后可查看全文。]]></description>
+			<pubDate>Thu, 27 Jun 2013 15:20:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[NVIDIA Shield临门延期，安卓掌机还没上市就先遇到麻烦]]></title>
+			<link>index.html?article=tech-003</link>
+			<guid isPermaLink="false">hxnews-tech-003</guid>
+			<category>科技</category>
+			<description><![CDATA[华夏资讯网科技频道新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Thu, 27 Jun 2013 14:40:00 +0800</pubDate>
+		</item>
+
+		<item>
+			<title><![CDATA[端游、页游、手游齐抢暑假，玩家的钱究竟会花在哪一头？]]></title>
+			<link>index.html?article=games-001</link>
+			<guid isPermaLink="false">hxnews-games-001</guid>
+			<category>游戏</category>
+			<description><![CDATA[华夏资讯网游戏频道分析摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 15:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[掌机、手机和客厅盒子都想抢时间，传统掌机还能撑多久？]]></title>
+			<link>index.html?article=games-002</link>
+			<guid isPermaLink="false">hxnews-games-002</guid>
+			<category>游戏</category>
+			<description><![CDATA[华夏资讯网游戏频道分析摘要，登录后可查看全文。]]></description>
+			<pubDate>Sat, 29 Jun 2013 18:10:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[《死侍》登陆三大平台，漫画第一嘴炮正式开打]]></title>
+			<link>index.html?article=games-003</link>
+			<guid isPermaLink="false">hxnews-games-003</guid>
+			<category>游戏</category>
+			<description><![CDATA[华夏资讯网游戏频道新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Tue, 25 Jun 2013 17:30:00 +0800</pubDate>
+		</item>
+
+		<item>
+			<title><![CDATA[志愿填报进入最后阶段：院校代码、专业代码千万别抄错]]></title>
+			<link>index.html?article=gaokao-001</link>
+			<guid isPermaLink="false">hxnews-gaokao-001</guid>
+			<category>高考</category>
+			<description><![CDATA[华夏资讯网高考频道服务资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 08:50:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[金融、土木、计算机都说前景好，热门专业为何越选越迷茫？]]></title>
+			<link>index.html?article=gaokao-002</link>
+			<guid isPermaLink="false">hxnews-gaokao-002</guid>
+			<category>高考</category>
+			<description><![CDATA[华夏资讯网高考频道分析摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 08:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[大学真的会比高中轻松吗？学长称千万别信]]></title>
+			<link>index.html?article=gaokao-003</link>
+			<guid isPermaLink="false">hxnews-gaokao-003</guid>
+			<category>高考</category>
+			<description><![CDATA[华夏资讯网高考频道问答摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 08:10:00 +0800</pubDate>
+		</item>
+
+		<item>
+			<title><![CDATA[招聘会散场以后：699万毕业生走进“最难就业季”]]></title>
+			<link>index.html?article=graduation-001</link>
+			<guid isPermaLink="false">hxnews-graduation-001</guid>
+			<category>毕业季</category>
+			<description><![CDATA[华夏资讯网毕业季新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 16:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[大学官网换上美女毕业照后访问量猛增，程序员连夜扩容]]></title>
+			<link>index.html?article=graduation-002</link>
+			<guid isPermaLink="false">hxnews-graduation-002</guid>
+			<category>毕业季</category>
+			<description><![CDATA[华夏资讯网毕业季资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 16:10:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[毕业论文致谢写满前女友名字，导师看完沉默三分钟]]></title>
+			<link>index.html?article=graduation-003</link>
+			<guid isPermaLink="false">hxnews-graduation-003</guid>
+			<category>毕业季</category>
+			<description><![CDATA[华夏资讯网毕业季人物资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sun, 30 Jun 2013 15:50:00 +0800</pubDate>
+		</item>
+
+		<item>
+			<title><![CDATA[一个前端工程师的加班夜：需求改到第五版，IE6还没测]]></title>
+			<link>index.html?article=fe-dev-001</link>
+			<guid isPermaLink="false">hxnews-fe-dev-001</guid>
+			<category>开发者</category>
+			<description><![CDATA[华夏资讯网开发者频道人物资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Sat, 29 Jun 2013 21:10:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[IE11预览版随Windows 8.1亮相，WebGL终于进入微软浏览器]]></title>
+			<link>index.html?article=fe-dev-002</link>
+			<guid isPermaLink="false">hxnews-fe-dev-002</guid>
+			<category>开发者</category>
+			<description><![CDATA[华夏资讯网开发者频道新闻摘要，登录后可查看全文。]]></description>
+			<pubDate>Thu, 27 Jun 2013 20:30:00 +0800</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[前端开发到底是不是切图仔，代码能力该从哪里体现]]></title>
+			<link>index.html?article=fe-dev-003</link>
+			<guid isPermaLink="false">hxnews-fe-dev-003</guid>
+			<category>开发者</category>
+			<description><![CDATA[华夏资讯网开发者频道争议资讯摘要，登录后可查看全文。]]></description>
+			<pubDate>Wed, 26 Jun 2013 19:40:00 +0800</pubDate>
+		</item>
+	</channel>
+</rss>
