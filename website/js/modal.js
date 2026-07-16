@@ -1,6 +1,14 @@
 (function (window, $) {
 	var modalReady = false;
 
+	function escapeHtml(text) {
+		return String(text || "")
+			.replace(/&/g, "&amp;")
+			.replace(/</g, "&lt;")
+			.replace(/>/g, "&gt;")
+			.replace(/"/g, "&quot;");
+	}
+
 	function buildModal() {
 		var html = [];
 
@@ -110,6 +118,10 @@
 		openModal(channelName + "频道", ["请先登录用户", "登录后可以访问完整频道"], true);
 	}
 
+	function showNotice(title, message) {
+		openModal(title || "系统提示", [escapeHtml(message || "该功能正在建设中。")], false);
+	}
+
 	function showRegister() {
 		openModal("注册提示", ["抱歉，注册系统维护中，暂不开放。"], false);
 	}
@@ -126,6 +138,7 @@
 		showArticle: showArticle,
 		showMore: showMore,
 		showChannel: showChannel,
+		showNotice: showNotice,
 		showRegister: showRegister,
 		showLoginMaintenance: showLoginMaintenance,
 		showPasswordMaintenance: showPasswordMaintenance,

@@ -6,7 +6,8 @@
 		<title>华夏资讯网 - 中文综合门户</title>
 		<meta name="keywords" content="新闻,中国,国际,科技,游戏,高考,社区,问答" />
 		<meta name="description" content="华夏资讯网，提供中国、国际、科技、游戏、教育和社区资讯。" />
-		<link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
 		<link rel="alternate" type="application/rss+xml" title="华夏资讯网综合RSS" href="rss.xml" />
 		<link rel="stylesheet" type="text/css" href="css/site.css" />
 		<!--[if IE 8]>
@@ -17,7 +18,7 @@
 		<div id="top"></div>
 		<div id="page">
 			<div class="top-bar clearfix">
-				<div class="top-links"><a href="#" id="set-homepage" style="behavior: url(#default#homepage)">设为首页</a><span>|</span> <a href="#" id="add-favorite">加入收藏</a><span>|</span> <a href="#">手机访问</a><span>|</span> <a href="rss.xml" target="_blank">RSS订阅</a><span>|</span><a href="https://weibo.com/" target="_blank">官方微博</a></div>
+				<div class="top-links"><a href="#" id="set-homepage" style="behavior: url(#default#homepage)">设为首页</a><span>|</span> <a href="#" id="add-favorite">加入收藏</a><span>|</span> <a href="#" class="js-notice-link" data-notice-title="手机访问" data-notice-message="手机版页面正在建设中。">手机访问</a><span>|</span> <a href="rss.xml" target="_blank">RSS订阅</a><span>|</span><a href="https://weibo.com/" target="_blank">官方微博</a></div>
 				<div class="top-status">
 					<span id="portal-clock">2013年06月30日 星期日 00:00:00</span>
 					<span class="online-count">当前在线：<strong id="online-count">23876</strong>人</span>
@@ -27,7 +28,7 @@
 			<div class="browser-notice">
 				<span class="notice-mark">!</span>
 				推荐使用360安全浏览器兼容模式或Internet Explorer 8访问本站，以获得最佳浏览效果。
-				<a href="#">查看帮助&gt;&gt;</a>
+				<a href="#" class="js-notice-link" data-notice-title="浏览器帮助" data-notice-message="请使用360安全浏览器兼容模式或Internet Explorer 8访问本站。">查看帮助&gt;&gt;</a>
 			</div>
 
 			<div class="portal-header clearfix">
@@ -59,8 +60,8 @@
 					<li><a href="#" class="js-channel-link" data-channel-name="高考">高考</a></li>
 					<li><a href="#" class="js-channel-link" data-channel-name="毕业季">毕业季</a></li>
 					<li><a href="#" class="js-channel-link" data-channel-name="夏日生活">夏日生活</a></li>
-					<li><a href="forum.html">社区</a></li>
-					<li class="last"><a href="questions.html">问答</a></li>
+					<li><a href="#" class="js-channel-link" data-channel-name="网友社区">社区</a></li>
+					<li class="last"><a href="#" class="js-channel-link" data-channel-name="知识问答">问答</a></li>
 				</ul>
 			</div>
 			<div class="sub-nav"><strong>地方频道：</strong><a href="#">北京</a> <a href="#">上海</a> <a href="#">杭州</a> <a href="#">浙江</a> <a href="#">广东</a> <a href="#">四川</a> <a href="#">湖北</a> <span>|</span><strong>特色栏目：</strong><a href="#">今日话题</a> <a href="#">深度调查</a> <a href="#">新闻图片</a> <a href="#">视频播报</a></div>
@@ -87,7 +88,7 @@
 						</select>
 						<input type="text" name="keyword" id="search-keyword" value="" placeholder="" />
 						<input type="submit" class="search-button" value="搜 索" />
-						<a href="#">高级搜索</a>
+						<a href="#" class="js-advanced-search">高级搜索</a>
 					</form>
 				</div>
 				<div class="flash-news">
@@ -130,7 +131,7 @@
 									<label><input type="radio" name="survey" /> 求职就业</label>
 									<label><input type="radio" name="survey" /> 数码新品</label>
 									<label><input type="radio" name="survey" /> 游戏娱乐</label>
-									<div><input class="small-button" type="button" value="投 票" /> <a href="#">查看结果</a></div>
+									<div><input class="small-button" type="button" value="投 票" /> <a href="#" class="js-survey-results">查看结果</a></div>
 								</div>
 							</div>
 
@@ -302,6 +303,10 @@
 		<script type="text/javascript" src="js/render.js"></script>
 		<script type="text/javascript" src="js/modal.js"></script>
 		<script type="text/javascript" src="js/random.js"></script>
+		<script type="text/javascript" src="js/advertisement.js"></script>
+		<script type="text/javascript" src="js/captcha.js"></script>
+		<script type="text/javascript" src="js/legacy.js"></script>
+		<script type="text/javascript" src="js/site-tools.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

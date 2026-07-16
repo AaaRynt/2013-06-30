@@ -267,255 +267,6 @@
 		});
 	}
 
-	function bindAdvertisement() {
-		var advertisements = [
-			{
-				src: "assets/tanki.jpg",
-				title: "只为渴望强大的你！",
-				width: 305,
-				height: 79,
-				top: 0
-			},
-			{
-				src: "assets/film.jpg",
-				title: "怪兽来袭 影城立即选座",
-				width: 305,
-				height: 171,
-				top: -46
-			},
-			{
-				src: "assets/english.png",
-				title: "不学好英语 怎么带路？",
-				width: 305,
-				height: 124,
-				top: -22
-			},
-			{
-				src: "assets/nurse.png",
-				title: "卫校小妹 同城交友",
-				width: 305,
-				height: 172,
-				top: -46
-			}
-		];
-		var currentIndex = 0;
-		var timer = null;
-		var $advertisement = $(".header-ad");
-		var $image = $("#ad-image");
-		var $title = $("#ad-title");
-		var preloadImage;
-		var i;
-
-		function updateSwitch(index) {
-			$(".ad-switch a").removeClass("current");
-			$('.ad-switch a[data-ad-index="' + index + '"]').addClass("current");
-		}
-
-		function showAdvertisement(index, useAnimation) {
-			var advertisement = advertisements[index];
-
-			if (!advertisement) {
-				return;
-			}
-
-			currentIndex = index;
-			updateSwitch(index);
-
-			if (useAnimation) {
-				$image.stop(true, true).fadeOut(180, function () {
-					$image
-						.attr("src", advertisement.src)
-						.attr("alt", advertisement.title)
-						.css({
-							width: advertisement.width + "px",
-							height: advertisement.height + "px",
-							marginTop: advertisement.top + "px"
-						})
-						.fadeIn(180);
-				});
-				$title.stop(true, true).fadeOut(180, function () {
-					$title.text(advertisement.title).fadeIn(180);
-				});
-			} else {
-				$image
-					.attr("src", advertisement.src)
-					.attr("alt", advertisement.title)
-					.css({
-						width: advertisement.width + "px",
-						height: advertisement.height + "px",
-						marginTop: advertisement.top + "px"
-					})
-					.show();
-				$title.text(advertisement.title).show();
-			}
-		}
-
-		function showNextAdvertisement() {
-			showAdvertisement((currentIndex + 1) % advertisements.length, true);
-		}
-
-		function stopAdvertisement() {
-			if (timer !== null) {
-				window.clearInterval(timer);
-				timer = null;
-			}
-		}
-
-		function startAdvertisement() {
-			stopAdvertisement();
-			timer = window.setInterval(showNextAdvertisement, 5000);
-		}
-
-		for (i = 0; i < advertisements.length; i++) {
-			preloadImage = new Image();
-			preloadImage.src = advertisements[i].src;
-		}
-
-		$(".ad-switch a").on("click", function () {
-			var index = parseInt($(this).attr("data-ad-index"), 10);
-
-			if (!isNaN(index)) {
-				showAdvertisement(index, true);
-				startAdvertisement();
-			}
-
-			return false;
-		});
-
-		$advertisement.on("mouseenter", function () {
-			stopAdvertisement();
-		});
-
-		$advertisement.on("mouseleave", function () {
-			startAdvertisement();
-		});
-
-		showAdvertisement(0, false);
-		startAdvertisement();
-	}
-
-	function refreshCaptcha() {
-		var characters = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
-		var textColors = ["#8b0000", "#004d00", "#4b0082", "#7a3d00", "#111111", "#8a0055"];
-		var backgroundColors = ["#f7e8b7", "#d9eed0", "#dce7f2", "#f1d9d0", "#e8ddf0", "#eeeecc"];
-		var fontFamilies = ["Courier New, monospace", "Arial, sans-serif", "Times New Roman, serif", "Georgia, serif"];
-		var html = [];
-		var character;
-		var className;
-		var color;
-		var fontFamily;
-		var fontSize;
-		var topOffset;
-		var lineColor;
-		var lineTop;
-		var lineLeft;
-		var lineWidth;
-		var i;
-
-		for (i = 0; i < 4; i++) {
-			character = characters.charAt(Math.floor(Math.random() * characters.length));
-			className = "captcha-char" + (i === 1 || Math.random() < 0.25 ? " captcha-char-blur" : "");
-			color = textColors[Math.floor(Math.random() * textColors.length)];
-			fontFamily = fontFamilies[Math.floor(Math.random() * fontFamilies.length)];
-			fontSize = 13 + Math.floor(Math.random() * 4);
-			topOffset = Math.floor(Math.random() * 5) - 2;
-			html.push('<span class="' + className + '" unselectable="on" style="color:' + color + ";font-family:" + fontFamily + ";font-size:" + fontSize + "px;top:" + topOffset + 'px;">' + character + "</span>");
-		}
-
-		for (i = 0; i < 3; i++) {
-			lineColor = textColors[Math.floor(Math.random() * textColors.length)];
-			lineTop = 3 + Math.floor(Math.random() * 14);
-			lineLeft = Math.floor(Math.random() * 9) - 5;
-			lineWidth = 48 + Math.floor(Math.random() * 16);
-			html.push('<span class="captcha-line" unselectable="on" style="background:' + lineColor + ";top:" + lineTop + "px;left:" + lineLeft + "px;width:" + lineWidth + 'px;"></span>');
-		}
-
-		$("#captcha-code")
-			.css("background", backgroundColors[Math.floor(Math.random() * backgroundColors.length)])
-			.html(html.join(""));
-	}
-
-	function bindCaptcha() {
-		$("#captcha-code")
-			.on("click", function () {
-				refreshCaptcha();
-				return false;
-			})
-			.on("selectstart copy cut contextmenu", function () {
-				return false;
-			});
-	}
-
-	function setHomepage(link) {
-		try {
-			link.style.behavior = "url(#default#homepage)";
-
-			if (typeof link.setHomePage === "undefined") {
-				window.alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
-				return;
-			}
-
-			link.setHomePage(window.location.href);
-		} catch (error) {
-			window.alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
-		}
-	}
-
-	function addFavorite() {
-		try {
-			if (!window.external) {
-				window.alert("您好,您的浏览器不支持收藏功能,请您手动收藏本页!");
-				return;
-			}
-
-			window.external.AddFavorite(window.location.href, document.title);
-		} catch (error) {
-			window.alert("您好,您的浏览器不支持收藏功能,请您手动收藏本页!");
-		}
-	}
-
-	function bindLegacyBrowserActions() {
-		$("#set-homepage").on("click", function () {
-			setHomepage(this);
-			return false;
-		});
-
-		$("#add-favorite").on("click", function () {
-			addFavorite();
-			return false;
-		});
-	}
-
-	function bindSearchPlaceholder() {
-		var keywords = ["毕业季", "棱镜门", "iOS 7", "土木专业", "高考志愿", "Google Reader", "斯诺登", "DOTA 2国服", "Windows 8.1", "GTA V", "战地4", "最难就业季", "华为P6", "PS4", "暑期新游", "劳动合同法", "天河二号", "埃及局势"];
-		var $input = $("#search-keyword");
-		var supportsPlaceholder = "placeholder" in document.createElement("input");
-		var currentPlaceholder = "";
-
-		function changePlaceholder() {
-			currentPlaceholder = "试试搜索：" + keywords[Math.floor(Math.random() * keywords.length)];
-			$input.attr("placeholder", currentPlaceholder);
-
-			if (!supportsPlaceholder) {
-				$input.val(currentPlaceholder).addClass("search-placeholder");
-			}
-		}
-
-		$input.on("focus", function () {
-			if (!supportsPlaceholder && $input.val() === currentPlaceholder) {
-				$input.val("").removeClass("search-placeholder");
-			}
-		});
-
-		$input.on("blur", function () {
-			if ($input.val() === "") {
-				changePlaceholder();
-			}
-		});
-
-		changePlaceholder();
-	}
-
 	function showArticleFromRss() {
 		var query = window.location.search || "";
 		var parts = query.replace(/^\?/, "").split("&");
@@ -542,7 +293,6 @@
 
 	$(function () {
 		updateClock();
-		refreshCaptcha();
 		renderAllChannels();
 		renderFocusNews();
 		renderRanking();
@@ -554,13 +304,25 @@
 		bindNavigation();
 		bindMemberActions();
 		bindRandomRefresh();
-		bindAdvertisement();
-		bindCaptcha();
-		bindLegacyBrowserActions();
-		bindSearchPlaceholder();
+
+		if (window.PORTAL_ADVERTISEMENT) {
+			window.PORTAL_ADVERTISEMENT.init();
+		}
+
+		if (window.PORTAL_CAPTCHA) {
+			window.PORTAL_CAPTCHA.init();
+		}
+
+		if (window.PORTAL_LEGACY) {
+			window.PORTAL_LEGACY.init();
+		}
+
+		if (window.PORTAL_SITE_TOOLS) {
+			window.PORTAL_SITE_TOOLS.init();
+		}
+
 		showArticleFromRss();
 		window.setInterval(updateClock, 1000);
 		window.setInterval(updateOnlineCount, 5000);
-		window.setInterval(refreshCaptcha, 60000);
 	});
 })(window, jQuery);
