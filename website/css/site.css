@@ -227,6 +227,10 @@ button {
 	overflow: hidden;
 }
 
+.ad-picture img {
+	display: block;
+}
+
 .ad-title {
 	position: absolute;
 	left: 3px;
